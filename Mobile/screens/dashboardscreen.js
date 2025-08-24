@@ -7,7 +7,7 @@ const DashboardScreen = ({ navigation }) => {
   const userId = 'user_id_here'; // store after login
 
   useEffect(() => {
-    axios.get(`http://localhost:5000/api/items/${userId}`)
+    axios.get(`http://https://mellifluous-semolina-32e916.netlify.app//${userId}`)
       .then((res) => setItems(res.data))
       .catch((err) => console.log(err));
   }, []);

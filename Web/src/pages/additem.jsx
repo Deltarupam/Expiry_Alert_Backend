@@ -22,7 +22,7 @@ const AddItem = () => {
 
     try {
       // Send a POST request to the backend API
-      const response = await axios.post('http://localhost:5000/api/item/add', itemData);
+      const response = await axios.post('http://https://mellifluous-semolina-32e916.netlify.app/', itemData);
       
       // Handle success
       alert('Item added successfully!');
